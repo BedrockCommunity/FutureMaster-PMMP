@@ -18,4 +18,7 @@ If you want helping about any plugin PMMP or Nukkit, you are welcome on Discord-
  - [ ] Implement all vanilla Items
  - [ ] Implement all vanilla Blocks
  - [ ] Working on Biomes!
+ 
+BedrockCommunity/FutureMaster-PMMP  is not affiliated with Mojang. All brands and trademarks belong to their respectfull owners ApFutureMaster-PMMP is not a Mojang-approved software, nor is it associated with Mojang.
+
  <br />
