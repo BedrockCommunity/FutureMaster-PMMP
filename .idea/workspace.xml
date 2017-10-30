@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="687405c9-82c8-4334-b947-3b436b652276" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/FutureMaster-PMMP.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugin.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/config.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/EventListener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/FutureMaster.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/LevelManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/Player.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/Server.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/Utils.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/block/BlockManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/block/EndPortal.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/block/EnderChest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/block/Obsidian.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/block/Portal.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/commands/CommandManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/commands/WorldCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Bat.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Blaze.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/CaveSpider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Chicken.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Cow.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Creeper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Donkey.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/ElderGuardian.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/EnderDragon.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Enderman.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Endermite.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/EntityManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Evoker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Ghast.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Guardian.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Horse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Human.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Husk.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/IronGolem.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Lightning.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Llama.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/MagmaCube.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Mooshroom.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Mule.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Ocelot.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Pig.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/PigZombie.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/PolarBear.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Rabbit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Sheep.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Shulker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Silverfish.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Skeleton.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/SkeletonHorse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Slime.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/SnowGolem.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Spider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Stray.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Vex.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Vindicator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Witch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Wither.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/WitherSkeleton.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/Wolf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/XPOrb.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/ZombieHorse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/ZombieVillager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/projectile/Egg.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/projectile/EnchantingBottle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/projectile/EnderPearl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/projectile/Snowball.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/entity/projectile/SplashPotion.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/inventory/EnderChestInventory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/item/EnchantingBottle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/item/EnderPearl.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/item/ItemManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/item/Potion.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/item/SplashPotion.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/item/enchantment/Enchantment.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/level/generator/VoidGenerator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/level/generator/biome/Biome.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/level/generator/ender/Ender.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/level/generator/ender/biome/EnderBiome.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/level/generator/ender/populator/EnderPilar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/level/generator/hell/Nether.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/level/particle/SpellParticle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/level/populator/GroundFire.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/level/populator/NetherGlowStone.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/level/populator/NetherLava.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/level/populator/NetherOre.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/plugin/AllAPI/FolderPluginLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/plugin/AllAPI/PharPluginLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/plugin/AllAPI/ScriptPluginLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/plugin/AllAPILoaderManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/task/CheckPlayersTask.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/tile/EnderChest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BedrockCommunity/tile/Tile.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <executablePath>C:\Users\user\Desktop\Proiecte\PocketMine-MP\composer.json</executablePath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="EventListener.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/EventListener.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="590">
+              <caret line="111" column="9" lean-forward="true" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
+              <folding>
+                <element signature="e#159#209#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Server.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../src/pocketmine/Server.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="651" column="34" lean-forward="true" selection-start-line="651" selection-start-column="34" selection-end-line="651" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Server.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/Server.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/Player.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="e#64#123#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FutureMaster.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/FutureMaster.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="566">
+              <caret line="66" column="64" lean-forward="true" selection-start-line="66" selection-start-column="64" selection-end-line="66" selection-end-column="64" />
+              <folding>
+                <element signature="e#64#104#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/entity/Witch.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/entity/Wither.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/entity/WitherSkeleton.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/entity/Wolf.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/entity/ZombieHorse.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/entity/ZombieVillager.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/commands/CommandManager.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/block/composer.json" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/Main.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/FutureMaster.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/entity/projectile/Egg.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/entity/EntityManager.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/level/populator/NetherOre.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/LevelManager.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/level/particle/SpellParticle.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/level/generator/hell/Nether.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/level/generator/ender/Ender.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/block/EndPortal.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/commands/WorldCommand.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/Utils.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/task/CheckPlayersTask.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/block/EnderChest.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/entity/projectile/EnderPearl.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/entity/projectile/Snowball.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/entity/projectile/SplashPotion.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/entity/Blaze.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/entity/Cow.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/entity/Donkey.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/entity/Lightning.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/entity/Mooshroom.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/entity/Pig.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/entity/PigZombie.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/entity/Rabbit.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/entity/Sheep.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/entity/Spider.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/entity/XPOrb.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/item/Potion.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/level/generator/ender/populator/EnderPilar.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/level/generator/VoidGenerator.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/level/populator/GroundFire.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/level/populator/NetherGlowStone.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/level/populator/NetherLava.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/plugin/AllAPILoaderManager.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/tile/EnderChest.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/level/generator/biome/Biome.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/block/BlockManager.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/block/Portal.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/block/Obsidian.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/Player.php" />
+        <option value="$PROJECT_DIR$/src/BedrockCommunity/EventListener.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="" />
+      <path value="C:\Users\user\Desktop\Proiecte\PocketMine-MP\src" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="260" />
+    <option name="y" value="21" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FutureMaster-PMMP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FutureMaster-PMMP" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FutureMaster-PMMP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FutureMaster-PMMP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FutureMaster-PMMP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FutureMaster-PMMP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BedrockCommunity" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FutureMaster-PMMP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FutureMaster-PMMP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BedrockCommunity" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="block" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FutureMaster-PMMP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FutureMaster-PMMP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BedrockCommunity" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="level" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FutureMaster-PMMP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FutureMaster-PMMP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BedrockCommunity" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="level" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="generator" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FutureMaster-PMMP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FutureMaster-PMMP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BedrockCommunity" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="level" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="generator" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="biome" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../src" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="687405c9-82c8-4334-b947-3b436b652276" name="Default" comment="" />
+      <created>1509366739316</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509366739316</updated>
+      <workItem from="1509366742310" duration="9614000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9614000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1060" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/entity/Spider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/entity/Stray.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/entity/Vex.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/entity/Vindicator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="e#87#117#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/entity/Witch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/entity/Wither.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/entity/WitherSkeleton.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/entity/Wolf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/entity/XPOrb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1324">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/entity/ZombieHorse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/entity/ZombieVillager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/inventory/EnderChestInventory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-271">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/item/enchantment/Enchantment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/item/EnchantingBottle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#41#66#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/item/EnderPearl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <folding>
+            <element signature="e#41#66#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/item/ItemManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#69#94#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/item/Potion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding>
+            <element signature="e#69#98#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/item/SplashPotion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-421">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/level/generator/ender/biome/EnderBiome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/level/generator/ender/populator/EnderPilar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="e#68#95#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/level/generator/ender/Ender.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460">
+          <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding>
+            <element signature="e#86#135#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/level/generator/hell/Nether.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3253">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#57#115#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/level/generator/VoidGenerator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="101" column="7" lean-forward="true" selection-start-line="101" selection-start-column="7" selection-end-line="101" selection-end-column="7" />
+          <folding>
+            <element signature="e#80#107#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/level/particle/SpellParticle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#51#97#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/level/populator/GroundFire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+          <folding>
+            <element signature="e#62#89#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/level/populator/NetherGlowStone.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#62#96#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/level/populator/NetherLava.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+          <folding>
+            <element signature="e#62#89#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/level/populator/NetherOre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#88#122#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/plugin/AllAPI/FolderPluginLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/plugin/AllAPI/ScriptPluginLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding>
+            <element signature="e#50#79#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/plugin/AllAPI/PharPluginLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#50#111#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/plugin/AllAPILoaderManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#97#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/task/CheckPlayersTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+          <folding>
+            <element signature="e#69#103#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/tile/EnderChest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+          <folding>
+            <element signature="e#41#92#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/tile/Tile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/LevelManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#36#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/level/generator/biome/Biome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#86#146#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/block/BlockManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#42#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/block/EndPortal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#42#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../src/pocketmine/block/Block.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_d.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-539">
+          <caret line="299" column="28" lean-forward="true" selection-start-line="299" selection-start-column="28" selection-end-line="299" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/block/Portal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="e#42#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/block/Obsidian.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-481">
+          <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <element signature="e#42#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/block/EnderChest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/FutureMaster.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="66" column="64" lean-forward="true" selection-start-line="66" selection-start-column="64" selection-end-line="66" selection-end-column="64" />
+          <folding>
+            <element signature="e#64#104#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/Utils.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#64#101#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/Player.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#64#123#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/Server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../src/pocketmine/Server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="651" column="34" lean-forward="true" selection-start-line="651" selection-start-column="34" selection-end-line="651" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BedrockCommunity/EventListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="111" column="9" lean-forward="true" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
+          <folding>
+            <element signature="e#159#209#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+name: FutureMaster-PMMP
+main: BedrockCommunity\FutureMaster
+version: 0.0.1-dev
+api: [3.0.0-ALPHA9, 3.0.0-ALPHA10, 3.0.0-ALPHA11, 3.0.0-ALPHA12, 3.0.0, 3.0.1, 3.0.2]
+load: STARTUP
+author: BedrockCommunity
+description: FutureMaster it's one project created for Nukkit and PMMP for add more features on them.
+website: https://github.com/BedrockCommunity
+
