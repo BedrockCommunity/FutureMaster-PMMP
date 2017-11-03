@@ -7,18 +7,8 @@ If you want helping about any plugin PMMP or Nukkit, you are welcome on Discord-
 
 [Discord-Group](https://discordapp.com/invite/7y8WM4F)
 
-# Finished & Planned Features
- - [X] End Dimension
- - [X] Nether Dimension
- - [X] EnderChests
- - [X] All vanilla enchants are Registered (not functional yet)
- - [X] EnderPearls & More realistic Projectiles
- - [ ] Implement all vanilla Entities
- - [ ] Weather system
- - [ ] Implement all vanilla Items
- - [ ] Implement all vanilla Blocks
- - [ ] Working on Biomes!
- 
-BedrockCommunity/FutureMaster-PMMP  is not affiliated with Mojang. All brands and trademarks belong to their respectfull owners ApFutureMaster-PMMP is not a Mojang-approved software, nor is it associated with Mojang.
+# This plugin was a fork of TeaSpoon: https://github.com/CortexPE/TeaSpoon
 
+Now, i continue develop on official branch. If anyone have any problems, can put them questions on discord group and i can help.
+When official repository it's dead, i continue them here.
  <br />
